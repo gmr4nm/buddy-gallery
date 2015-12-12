@@ -362,14 +362,14 @@
     new Pict(
       'my_pack.jpg',
       'My gang', "I'm the leader",
-      0.5,-.6,.2,2,1.4
+      0.5,-.6,.4,2,1.4
     )
   );
 
   objects.push(
     new Pict(
-      '',
-      '', "",
+      'lady_love.jpg',
+      'The Ladies', "they love me",
       -1.5,-.8,0,2,1.4
     )
   );

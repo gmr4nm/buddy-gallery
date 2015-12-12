@@ -384,7 +384,7 @@
   objects.push(
     new Pict(
       'always_ready.JPG',
-      'Collie Ethic', "always ready to go",
+      'Work Ethic', "always ready to go",
       -2,-1,-.6,2,2.4
     )
   );
