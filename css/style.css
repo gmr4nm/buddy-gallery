@@ -18,6 +18,9 @@ h1 {
 }
 h2 {
 	font-size: 25px;
+	margin-top: 2%;
+	margin-bottom:2%;
+
 }
 header {
 	margin-right: 2%;
@@ -43,12 +46,7 @@ header {
 		height: 100px;
 	}
 	
-	.content {
-		display: none;
-		margin: 0 auto;
-		text-align: justify;
-		width: 95%;
-	}
+
 	
 	#working-collie {
 		display: block;
@@ -163,7 +161,7 @@ header {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		cursor: pointer;
-		margin: 2%;
+		margin-left: 25%;
 		width: 40%;
 	}
 
