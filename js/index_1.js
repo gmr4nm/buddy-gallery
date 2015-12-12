@@ -361,7 +361,7 @@
   objects.push(
     new Pict(
       'attention.jpg',
-      'Attention', "is always key",
+      'Attention', "to details is key",
       0.5,-.6,.4,2,1.4
     )
   );
@@ -369,7 +369,7 @@
   objects.push(
     new Pict(
       'herding.jpg',
-      'Always ready', "to organize problems",
+      'Always Ready', "to organize problems",
       -1.5,-.8,.2,2,1.4
     )
   );
