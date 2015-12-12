@@ -1,7 +1,7 @@
 html,
 body {
 	background-image: linear-gradient(to right, white, gray);
-	font: normal 1em Arial, sans-serif;
+	font-family:Comic Sans MS, Comic Sans, cursive;
 	min-height: 100%;
 	margin: 0;
 	position: relative;
@@ -169,7 +169,7 @@ header {
 
 	footer {
 		/* display: none; */
-		font-size: .8em;
 		text-align: center;
+		margin-bottom:2%
 	}
 }

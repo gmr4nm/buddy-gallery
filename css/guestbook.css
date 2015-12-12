@@ -1,18 +1,9 @@
 html,
 body {
-	background-image: linear-gradient(to right, white, gray);
+	background: linear-gradient(to right, white, gray);
 	font: normal 1em Arial, sans-serif;
 	min-height: 100%;
 	margin: 2%;
 	position: relative;
 }
-#header {
-	margin-right: 2%;
-	margin-left: 2%;
-	background-position: top;
-	background-size: 100% 100%;
-	height: 15em;
-	position: relative;
-	border: 2px solid;
-	border-bottom-right-radius: 12px;
-	border-bottom-left-radius: 12px;
+
