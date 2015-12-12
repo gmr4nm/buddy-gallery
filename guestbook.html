@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Guestbook</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/guestbook.css">
+
+  
+    
+  </head>
+<body>
+
+</div id="header">
+<h1>Buddy wants to know what you think...</h1>
+<img style="position:relative; TOP:5%; LEFT:5%; WIDTH:50%;"src="img/guestbook.jpg" alt="buddy looking expectantly">
+</div>
+<br>
+ <body>
+    <span style="color:red;"class="error">
+
+      {% if error %}
+      <h4>You input was invalid. Try again!</h4>
+      {%else%}
+      {% endif %}
+
+    </span>
+    {% for greeting in greetings %}
+        <h2>A guest wrote:</h2>
+      <p>{{ greeting.content }}</p>
+    {% endfor %}
+    <form action="/sign" method="post">
+      <div><textarea name="content" rows="3" cols="120" placeholder="Your comment here..." style="padding:10px;"></textarea></div>
+      <div><input type="submit" value="Sign Guestbook"></div>
+    </form>
+  </body>
+    
+</html>
