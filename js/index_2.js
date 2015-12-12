@@ -345,7 +345,7 @@
   objects.push(
     new Pict(
       'exploring.jpg',
-      'Squirrels', "we are coming for you",
+      'Squirrels', "we are coming",
       -1,-.8,.8,2,1.4
     )
   );
