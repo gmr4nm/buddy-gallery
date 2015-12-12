@@ -369,7 +369,7 @@
   objects.push(
     new Pict(
       'herding.jpg',
-      'Organization', "imposed anytime, anywhere",
+      'Organization', "may be imposed anytime, anywhere",
       -1.5,-.8,.2,2,1.4
     )
   );
