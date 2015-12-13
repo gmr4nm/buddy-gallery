@@ -89,7 +89,7 @@
     this.text.width = 1000;
     this.text.height = 300;
     var ict = this.text.getContext('2d');
-    ict.font = 'bold 140px arial';
+    ict.font = 'bold 130px arial';
     ict.fillStyle = '#ddd';
     ict.textAlign = 'center';
     ict.fillText(title, 500, 120);
