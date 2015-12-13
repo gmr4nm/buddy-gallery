@@ -376,7 +376,7 @@
   objects.push(
     new Pict(
       'challenges.jpg',
-      'Challenges', "no puzzle is safe from Buddy",
+      'Challenges', "no puzzle is Buddy-proof",
       .5,-1,-.2,2,2
     )
   );
