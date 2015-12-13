@@ -89,7 +89,7 @@
     this.text.width = 1000;
     this.text.height = 300;
     var ict = this.text.getContext('2d');
-    ict.font = 'bold 130px arial';
+    ict.font = 'bold 125px arial';
     ict.fillStyle = '#ddd';
     ict.textAlign = 'center';
     ict.fillText(title, 500, 120);
@@ -354,7 +354,7 @@
     new Pict(
       'resting.jpg',
       "Hard day's night", "sleeping like a log",
-      -2,-0.7,.6,2,1.4
+      -2,-0.7,.5,2,1.4
     )
   );
 
@@ -362,7 +362,7 @@
     new Pict(
       'attention.jpg',
       'Attention', "to details is key",
-      0.5,-.6,.4,2,1.4
+      0.5,-.6,.3,2,1.4
     )
   );
 
@@ -370,7 +370,7 @@
     new Pict(
       'herding.jpg',
       'Organization', "may be imposed anytime, anywhere",
-      -1.5,-.8,.2,2,1.4
+      -1.5,-.8,.0,2,1.4
     )
   );
   objects.push(
@@ -385,7 +385,7 @@
     new Pict(
       'always_ready.JPG',
       'Work Ethic', "always ready to go",
-      -2,-1,-.6,2,2.4
+      -2,-1,-.4,2,2.4
     )
   );
 
