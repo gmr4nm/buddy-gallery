@@ -1,13 +1,13 @@
 html,
 body {
 	background-image: linear-gradient(to right, white, gray);
-	font-family:Comic Sans MS, Comic Sans, cursive;
+	font-family:Comic Sans MS, Comic Sans;
 	min-height: 100%;
 	margin: 0;
 	position: relative;
 }
 #title,h1,h2, h3 {
-	font-family:Comic Sans MS, Comic Sans, cursive;
+	font-family:Comic Sans MS, Comic Sans;
 	text-indent: 1%;
 	text-align: left;
 	margin:1%;
@@ -167,6 +167,7 @@ header {
 
 	footer {
 		/* display: none; */
+		font-size: relative;
 		text-align: center;
 		margin-bottom:2%;
 	}
