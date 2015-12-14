@@ -351,7 +351,7 @@
   objects.push(
     new Pict(
       'plastic_cow.jpg',
-      "Confidence", "the result of good risk management",
+      "Confidence", "is the result of good risk management",
       -2,-0.5,0.5,2,1.4
     )
   );
