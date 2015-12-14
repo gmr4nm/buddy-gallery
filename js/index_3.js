@@ -343,7 +343,7 @@
   objects.push(
     new Pict(
       'soviet.jpg',
-      'In Soviet Russia', "collies still in charge",
+      'In Soviet Russia', "collies still herd you",
       -1,-0.6,0.8,2,1.4
     )
   );
