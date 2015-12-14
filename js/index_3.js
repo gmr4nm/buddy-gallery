@@ -382,7 +382,7 @@
   objects.push(
     new Pict(
       'coonskin.jpg',
-      'Pioneering', "new frontiers of awesomeness",
+      'Pioneering', "new frontiers of cuteness",
       -2,-1.2,-0.5,2,2.4
     )
   );
