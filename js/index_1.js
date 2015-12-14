@@ -63,8 +63,6 @@
 
   };
 
-
-
   var Pict = function (img, title, text, x, y, z, w, h) {
 
     this.x = x * 100;
@@ -346,23 +344,23 @@
     new Pict(
       'discoveries.JPG',
       'Discoveries', "are made by not following instructions",
-      -1,-.8,.8,2,1.4
+      -1,-0.6,0.8,2,1.4
     )
   );
 
   objects.push(
     new Pict(
-      'resting.jpg',
-      "Hard day's night", "sleeping like a log",
-      -2,-0.7,.5,2,1.4
+      'plastic_cow.jpg',
+      "Confidence", "the result of good risk management",
+      -2,-0.5,0.5,2,1.4
     )
   );
 
   objects.push(
     new Pict(
       'attention.jpg',
-      'Attention', "to details is key",
-      0.5,-.6,.3,2,1.4
+      'Attention', "to detail is key",
+      0.2,-0.5,0.3,2,1.4
     )
   );
 
@@ -370,14 +368,14 @@
     new Pict(
       'herding.jpg',
       'Organization', "may be imposed anytime, anywhere",
-      -1.5,-.8,.0,2,1.4
+      -2,-0.4,0,2,1.4
     )
   );
   objects.push(
     new Pict(
       'challenges.jpg',
       'Challenges', "no puzzle is Buddy-proof",
-      .5,-1,-.2,2,2
+      0.2,-0.2,-0.2,2,1.4
     )
   );
 
@@ -385,7 +383,7 @@
     new Pict(
       'always_ready.JPG',
       'Work Ethic', "always ready to go",
-      -2,-1,-.4,2,2.4
+      -2,-1.2,-0.4,2,2.4
     )
   );
 

@@ -63,8 +63,6 @@
 
   };
 
-
-
   var Pict = function (img, title, text, x, y, z, w, h) {
 
     this.x = x * 100;
@@ -89,7 +87,7 @@
     this.text.width = 1000;
     this.text.height = 300;
     var ict = this.text.getContext('2d');
-    ict.font = 'bold 140px arial';
+    ict.font = 'bold 125px arial';
     ict.fillStyle = '#ddd';
     ict.textAlign = 'center';
     ict.fillText(title, 500, 120);
@@ -305,7 +303,7 @@
     new Wall(
       [-2.5,-2.5,-2.5,-2.5],
       [-1,-1,1,1],
-      [-0.5,1,1,-0.5]
+      [-1,1,1,-1]
     )
   );
 
@@ -321,7 +319,7 @@
     new Wall(
       [2.5,2.5,2.5,2.5],
       [-1,-1,1,1],
-      [1,-1,-1,1]
+      [1,-.5,-.5,1]
     )
   );
 
@@ -335,7 +333,7 @@
 
   objects.push(
     new Wall(
-      [-2.5,-2.5,-2.5,-2.5],
+      [-2.5,-2.7,-2.7,-2.5],
       [-1,-1,1,1],
       [-1,-1,-1,-1]
     )
@@ -344,54 +342,50 @@
 
   objects.push(
     new Pict(
-      'imitation.jpg',
-      'Imitation', "the sincerest form of flattery",
+      'soviet.jpg',
+      'In Soviet Russia', "collies still in charge",
       -1,-0.6,0.8,2,1.4
     )
   );
-'imitation.jpg',
-      'Imitation', "the sincerest form of flattery",
+
   objects.push(
     new Pict(
-      'the_people.jpg',
-      "People", "would be lost without me",
-      0.2,-0.5,0.5,2,1.4
+      'casual.jpg',
+      "Casual Buddy", "always a star",
+      -2,-0.4,0.5,2,1.4
     )
   );
 
   objects.push(
     new Pict(
-      'exploring.jpg',
-      'Squirrels', "we are coming",
-      -2,-0.5,0.3,2,1.4
+      'retro.jpg',
+      'Retro Buddy', "bringing sexy back",
+      0.2,-0.2,.3,2,1.4
     )
   );
 
   objects.push(
     new Pict(
-      'lady_love.jpg',
-      'The Ladies', "they love me",
-      0.2,-0.4,0.1,2,1.4
+      'workout.jpg',
+      'Gym Buddy', "next level fitness",
+      -2,-1.2,0.1,2,2.4
     )
   );
-  
   objects.push(
     new Pict(
-      'fav_person.jpg',
-      'Mom', "she's the best",
-      -2,-1.2,-0.2,2,2.4
+      'christmas.jpg',
+      'Christmas', "now with twice the jolly",
+      0.2,-1.2,-0.2,2,2.4
     )
   );
 
   objects.push(
     new Pict(
-      'my_pack.jpg',
-      'My gang', "I'm the leader",
-      0.2,-0.4,-0.5,2,1.4
+      'coonskin.jpg',
+      'Pioneering', "new frontiers of awesomeness",
+      -2,-1.2,-0.5,2,2.4
     )
   );
-
-  
 
   run();
 
