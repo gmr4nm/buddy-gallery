@@ -53,8 +53,7 @@ class Master_of_disguise(Handler):
     """Basic Handler for master_of_disguise.html"""
     def get(self):
         self.render("master_of_disguise.html")
-
-
+     
 class Guestbook(webapp2.RequestHandler):
     
 
